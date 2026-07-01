@@ -108,8 +108,7 @@ body {
 }
 
 #skills-marquee {
-    margin-top: 50px;
-    padding: 10px 0;
+    margin-top: 35px;
     opacity: 0;
     animation: fadeInUp 0.8s ease forwards;
     animation-delay: 1.7s; 
@@ -127,10 +126,10 @@ body {
 @keyframes fadeInUp {
     from {
         opacity: 0;
-        transform: translateY(30px); /* يبدأ من تحت بمقدار 30px */
+        transform: translateY(30px); 
     }
     to {
         opacity: 1;
-        transform: translateY(0); /* يستقر في مكانه الأصلي */
+        transform: translateY(0); 
     }
 }
